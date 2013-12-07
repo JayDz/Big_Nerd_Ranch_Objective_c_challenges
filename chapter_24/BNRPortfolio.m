@@ -1,4 +1,4 @@
-// Challenge 1, Chapter 24
+// Challenge 2, Chapter 24
 // jeffreydiaz27@gmail.com
 // BNRPortfolio.m
 
@@ -64,4 +64,15 @@
 	
 	return ret;
 }
+
+-(NSArray*) allHoldings
+{
+	if (!_holdings) return nil;
+	
+	NSSortDescriptor* sortedSymbols = [NSSortDescriptor sortDescriptorWithKey:@"symbol" ascending:YES];
+	NSArray* ret = [_holdings sortedArrayUsingDescriptors:@[sortedSymbols]];
+	
+	return ret;
+}
+
 @end

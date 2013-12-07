@@ -1,4 +1,4 @@
-// Challenge 1, Chapter 24
+// Challenge 2, Chapter 24
 // jeffreydiaz27@gmail.com
 //  BNRPortfolio.h
 
@@ -12,5 +12,6 @@
 -(void) removeHolding:(BNRStockHolding*) holding;
 -(float) currentValue;
 -(NSArray*) topHoldings;
+-(NSArray*) allHoldings;
 
 @end
