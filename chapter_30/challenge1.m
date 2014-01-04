@@ -1,4 +1,4 @@
-//  Challenge #2 Chapter 28
+//  Challenge #1 Chapter 30
 //
 //  Created by jay on 1/2/14.
 
